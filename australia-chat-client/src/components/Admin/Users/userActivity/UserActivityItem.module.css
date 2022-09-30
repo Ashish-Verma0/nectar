@@ -1,0 +1,44 @@
+.paginationContainer {
+    display: flex;
+    list-style: none;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .paginationPageLink,
+  .paginationPageLink:hover {
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+  }
+  .paginationNextLink,
+  .paginationNextLink:hover {
+    padding: 20px;
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: black;
+  }
+  .paginationPreviousLink,
+  .paginationPreviousLink:hover {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 2.3rem;
+  }
+  
+  .paginationActive {
+    background-color: #59d6d6;
+    color: white !important;
+  }
+  
+  .paginationAllUsersFont {
+    font-weight: 400;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  .paginationAllUsersFontImg {
+    border-radius: 50%;
+  }
+  

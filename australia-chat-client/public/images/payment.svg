@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_896" data-name="Group 896" transform="translate(-2275 -1054)">
+    <rect id="Rectangle_464" data-name="Rectangle 464" width="24" height="24" transform="translate(2275 1054)" fill="none"/>
+    <g id="credit-card_1_" data-name="credit-card(1)" transform="translate(2276.329 1056.663)">
+      <g id="Group_888" data-name="Group 888" transform="translate(0 4.001)">
+        <g id="Group_887" data-name="Group 887">
+          <path id="Path_2016" data-name="Path 2016" d="M9.337,129.326v-1.334h-8A1.336,1.336,0,0,0,0,129.326v2.668H9.618A11.943,11.943,0,0,1,9.337,129.326Z" transform="translate(0 -127.992)" fill="#717171"/>
+        </g>
+      </g>
+      <g id="Group_890" data-name="Group 890" transform="translate(0 10.67)">
+        <g id="Group_889" data-name="Group 889">
+          <path id="Path_2017" data-name="Path 2017" d="M21.287,287.992A12,12,0,0,1,17,291.728a2,2,0,0,1-1.989,0,12.057,12.057,0,0,1-4.286-3.739H0v6.669A1.335,1.335,0,0,0,1.334,296H20.008a1.334,1.334,0,0,0,1.334-1.334v-6.669ZM6,291.994H3.335a.667.667,0,1,1,0-1.334H6a.667.667,0,1,1,0,1.334Z" transform="translate(0 -287.992)" fill="#717171"/>
+        </g>
+      </g>
+      <g id="Group_892" data-name="Group 892" transform="translate(10.671 0)">
+        <g id="Group_891" data-name="Group 891">
+          <path id="Path_2018" data-name="Path 2018" d="M266.267,34.063l-4.668-2a.669.669,0,0,0-.527,0l-4.669,2a.665.665,0,0,0-.4.612v2.668c0,3.669,1.357,5.814,5,7.915a.671.671,0,0,0,.664,0c3.647-2.1,5-4.24,5-7.915V34.675A.664.664,0,0,0,266.267,34.063Zm-2.409,3.031-2.668,3.335a.674.674,0,0,1-.522.249h-.028a.669.669,0,0,1-.527-.3l-1.334-2a.667.667,0,1,1,1.11-.739l.828,1.242,2.1-2.622a.667.667,0,0,1,1.043.832Z" transform="translate(-256 -32.008)" fill="#717171"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

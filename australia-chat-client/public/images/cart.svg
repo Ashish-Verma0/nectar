@@ -1,0 +1,8 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="shopping-cart">
+    <rect id="Rectangle_32" data-name="Rectangle 32" width="24" height="24" fill="#717171" opacity="0"/>
+    <path id="Path_168" data-name="Path 168" d="M21.08,7a2,2,0,0,0-1.7-1H6.58L6,3.74A1,1,0,0,0,5,3H3A1,1,0,0,0,3,5H4.24L7,15.26A1,1,0,0,0,8,16h9a1,1,0,0,0,.89-.55l3.28-6.56A2,2,0,0,0,21.08,7Z" fill="#717171"/>
+    <circle id="Ellipse_7" data-name="Ellipse 7" cx="1.5" cy="1.5" r="1.5" transform="translate(6 18)" fill="#717171"/>
+    <circle id="Ellipse_8" data-name="Ellipse 8" cx="1.5" cy="1.5" r="1.5" transform="translate(16 18)" fill="#717171"/>
+  </g>
+</svg>

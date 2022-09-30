@@ -1,0 +1,22 @@
+
+.Previous-Notification{
+    display: flex;
+}
+@media screen and (min-width:10px) and (max-width:800px) {
+    .Previous-Notification{
+        display: flex!important;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+    }
+    .handleimg{
+        margin-left: -19px !important;
+    }
+    .main-row{
+        display: flex;
+        flex-direction: column;
+        width: 435px;
+        max-width: 455px;
+    }
+  }

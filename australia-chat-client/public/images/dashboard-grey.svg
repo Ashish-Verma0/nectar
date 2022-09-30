@@ -1,0 +1,9 @@
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="grid">
+    <rect id="Rectangle_130" data-name="Rectangle 130" width="24" height="24" fill="#717171" opacity="0"/>
+    <path id="Path_219" data-name="Path 219" d="M9,3H5A2,2,0,0,0,3,5V9a2,2,0,0,0,2,2H9a2,2,0,0,0,2-2V5A2,2,0,0,0,9,3Z" fill="#717171"/>
+    <path id="Path_220" data-name="Path 220" d="M19,3H15a2,2,0,0,0-2,2V9a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V5A2,2,0,0,0,19,3Z" fill="#717171"/>
+    <path id="Path_221" data-name="Path 221" d="M9,13H5a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2H9a2,2,0,0,0,2-2V15A2,2,0,0,0,9,13Z" fill="#717171"/>
+    <path id="Path_222" data-name="Path 222" d="M19,13H15a2,2,0,0,0-2,2v4a2,2,0,0,0,2,2h4a2,2,0,0,0,2-2V15A2,2,0,0,0,19,13Z" fill="#717171"/>
+  </g>
+</svg>

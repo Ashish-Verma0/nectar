@@ -1,0 +1,460 @@
+swagger: "2.0"
+info:
+  title: Dating API
+  description: This is Dating API Documentation
+  version: one
+
+schemes: [http, https]
+
+paths:
+  /api/v1/users/signUp/SendOTP:
+    post:
+      tags:
+        - User Authentication
+      summary: Sign Up send Otp on phone no
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          schema:
+            type: object
+            required:
+              - phone
+            properties:
+              phone:
+                type: number
+      responses:
+        "200":
+          description: Otp Is sended to phone id and Otp is valid for 10 min
+        "409":
+          description: This phone number already exists
+        "500":
+          description: Internal server error
+
+  /api/v1/users/signUp/verify/otp:
+    post:
+      tags:
+        - User Authentication
+      summary: Sign Up verify Otp
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          schema:
+            type: object
+            required:
+              - phone
+              - otp
+            properties:
+              phone:
+                type: number
+              otp:
+                type: number
+      responses:
+        "200":
+          description: Otp Is verified
+        "401":
+          description: OTP Expired / Incorrect OTP
+        "409":
+          description: This phone number already exists
+        "500":
+          description: Internal server error
+
+  /api/v1/users/signUp:
+    post:
+      tags:
+        - User Authentication
+      summary: Sign Up
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          schema:
+            type: object
+            required:
+              - phone
+              - latitude
+              - longitude
+              - name
+              - myInterests
+              - dob
+              - yourStarSign
+              - iIdentifyAs
+              - lookingFor
+              - readyFor
+              - moreAboutMe
+              - myIdealMatch
+              - phone
+            properties:
+              phone:
+                type: number
+              latitude:
+                type: number
+              longitude:
+                type: number
+              name:
+                type: string
+              myInterests:
+                type: Array
+              dob:
+                type: string
+              yourStarSign:
+                type: string
+              iIdentifyAs:
+                type: string
+              lookingFor:
+                type: string
+              readyFor:
+                type: string
+              moreAboutMe:
+                type: object
+              myIdealMatch:
+                type: object              
+              phone:
+                type: string
+              
+              
+
+
+      responses:
+        "201":
+          description: User created
+        "409":
+          description: This phone number already exists
+        "500":
+          description: Internal server error
+
+
+
+  /api/v1/users/signIn/sendOtp:
+    post:
+      tags:
+        - User Authentication
+      summary: Sign In  send Otp on phone no
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          schema:
+            type: object
+            required:
+              - phone
+            properties:
+              phone:
+                type: number
+      responses:
+        "200":
+          description: Otp Is sended to phone id and Otp is valid for 10 min
+        "404":
+          description: User not found
+        "500":
+          description: Internal server error
+
+
+  /api/v1/users/signIn/withOtp:
+    post:
+      tags:
+        - User Authentication
+      summary: SignIn verify Otp
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          schema:
+            type: object
+            required:
+              - phone
+              - otp
+            properties:
+              phone:
+                type: number
+              otp:
+                type: number
+      responses:
+        "200":
+          description: Login successfully
+        "401":
+          description: OTP Expired / Incorrect OTP
+        "404":
+          description: Phone Number not  not found, please Sign Up
+        "500":
+          description: Internal server error
+
+
+  /api/v1/user-media/user-verify-photos/{id}:
+    post:
+      tags:
+        - User Media Upload
+      summary: Upload selfie and full Body Photo
+      produces:
+        - application/json
+      consumes:
+        - multipart/form-data
+
+      parameters:
+        - in: formData
+          name: selfie
+          type: file
+          required: true
+          description: selfie upload.
+        - in: formData
+          name: fullBody
+          type: file
+          required: true
+          description: fullBody upload.
+        - in: path
+          name: id
+       
+      responses:
+        "200":
+          description: User Verify Photos Updated
+        "404":
+          description: User not found
+        "500":
+          description: Internal server error
+
+
+
+  /api/v1/user-media/user-verify-bio-video/{id}:
+    post:
+      tags:
+        - User Media Upload
+      summary: Upload video bio Photo
+      produces:
+        - application/json
+      consumes:
+        - multipart/form-data
+
+      parameters:
+        - in: formData
+          name: video-bio
+          type: file
+          required: true
+          description: video-bio upload.
+        - in: path
+          name: id
+       
+      responses:
+        "200":
+          description: Video Uploaded SuccessFully
+        "404":
+          description: User not found
+        "500":
+          description: Internal server error
+
+
+  /api/v1/user-media/user-verify-selfie/{key}:
+    get:
+      tags:
+        - User Media Get
+      summary: get selfie Photo
+      produces:
+
+        - multipart/form-data
+      consumes:
+        - application/json
+
+      parameters:
+        - in: path
+          name: key
+       
+      responses:
+
+        "500":
+          description: Internal server error
+
+  /api/v1/user-media/user-verify-full-body/{key}:
+    get:
+      tags:
+        - User Media Get
+      summary: get video bio Photo
+      produces:
+        - multipart/form-data
+      consumes:
+        - application/json
+      parameters:
+        - in: path
+          name: key
+      responses:
+
+        "500":
+          description: Internal server error
+
+  /api/v1/user-media/user-verify-bio-video/{key}:
+    get:
+      tags:
+        - User Media Get
+      summary: get video bio Photo
+      produces:
+        - multipart/form-data
+      consumes:
+        - application/json
+      parameters:
+        - in: path
+          name: key
+      responses:
+        "500":
+          description: Internal server error
+
+
+  /api/v1/users/iWantToSwipe/{userId}:
+    patch:
+      tags:
+        - User Authentication 
+      summary: Select I want to swipe
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: path
+          name: userId
+        - in: body
+          name: body
+          schema:
+            type: object
+            required:
+              - iWantToSwipe
+            properties:
+              iWantToSwipe:
+                type: string
+      responses:
+        "200":
+          description: Updated successfully
+        "404":
+          description: User not found
+        "500":
+          description: Internal server error
+
+
+
+  /api/v1/users/questions/:
+    get:
+      tags:
+        - User Questions
+      summary: Get all the questions
+      produces:
+        - application/json
+      responses:
+        "200":
+          description: Successfully
+        "500":
+          description: Internal server error
+
+  /api/v1/users/questions:
+    patch:
+      tags:
+        - User Questions
+      summary: save users questions
+      produces:
+        - application/json
+      consumes:
+        - application/json
+      parameters:
+        - in: body
+          name: body
+          schema:
+            type: object
+            required:
+              - userId
+              - questionsArray
+            properties:
+              userId:
+                type: string
+              questionsArray:
+                type: Array
+      responses:
+        "200":
+          description: Successfully save
+        "400":
+          description: Give at least 3 questions / incomplete data
+        "404":
+          description: User not found
+        "500":
+          description: Internal server error
+
+  /api/v1/users/getPhotos/{key}:
+    get:
+      tags:
+        - User Media Get
+      summary: get uses Photo
+      produces:
+        - multipart/form-data
+      consumes:
+        - application/json
+      parameters:
+        - in: path
+          name: key
+      responses:
+        "500":
+          description: Internal server error
+
+  /api/v1/users/uploadPhoto/{id}:
+    post:
+      tags:
+        - User Media Upload
+      summary: Upload user photo
+      produces:
+        - application/json
+      consumes:
+        - multipart/form-data
+      parameters:
+        - in: formData
+          name: file
+          type: file
+          required: true
+          description: phots upload.
+        - in: path
+          name: id
+      responses:
+        "200":
+          description: photo Uploaded SuccessFully
+        "404":
+          description: User not found
+        "500":
+          description: Internal server error
+
+  /api/v1/user-media/user-verify-bio-video-edit/{id}:
+    post:
+      tags:
+        - User Media Upload
+      summary: edit and Upload video bio Photo
+      produces:
+        - application/json
+      consumes:
+        - multipart/form-data
+
+      parameters:
+        - in: formData
+          name: video-bio
+          type: file
+          required: true
+          description: video-bio upload.
+        - in: path
+          name: id
+       
+      responses:
+        "200":
+          description: Video Uploaded SuccessFully
+        "404":
+          description: User not found
+        "500":
+          description: Internal server error
+
+
+

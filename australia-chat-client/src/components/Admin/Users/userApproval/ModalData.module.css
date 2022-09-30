@@ -1,0 +1,55 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+}
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+ul {
+  list-style: none;
+  margin-top: 5px;
+}
+li {
+  margin-top: 10px;
+}
+.img1 {
+  margin-right: 15px;
+  border-radius: 10px;
+}
+.video {
+  min-width: 58%;
+  height: 120px;
+  border-radius: 10px;
+}
+.approve {
+  height: 80px;
+  margin: auto;
+  padding-top: 15px;
+  min-width: 58%;
+}
+.img {
+  display: flex;
+  flex-direction: column !important;
+  padding-right: 20px;
+}
+.main-img {
+  display: flex;
+  min-width: 58%;
+}
+span {
+  padding-left: 15px;
+}
+.main-list {
+  margin: auto;
+  width: 30%;
+}
+
+@media screen and (min-width: 576px) {
+  .modal-dialog {
+    max-width: 760px !important;
+  }
+}

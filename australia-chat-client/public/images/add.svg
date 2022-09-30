@@ -1,0 +1,12 @@
+<svg id="Component_3_1" data-name="Component 3 – 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Ellipse_20" data-name="Ellipse 20" fill="#717171" stroke="#707070" stroke-width="1">
+    <circle cx="12" cy="12" r="12" stroke="none"/>
+    <circle cx="12" cy="12" r="11.5" fill="none"/>
+  </g>
+  <g id="Layer_2" data-name="Layer 2" transform="translate(4 4)">
+    <g id="plus" transform="translate(0 0.194)">
+      <rect id="Rectangle_167" data-name="Rectangle 167" width="17" height="16" transform="translate(17 15.806) rotate(180)" fill="#fff" opacity="0"/>
+      <path id="Path_225" data-name="Path 225" d="M14.765,8.6H10.459V4.657a.721.721,0,0,0-1.435,0V8.6H4.718a.659.659,0,1,0,0,1.313H9.024v3.94a.721.721,0,0,0,1.435,0V9.911h4.306a.659.659,0,1,0,0-1.313Z" transform="translate(-1.333 -1.333)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

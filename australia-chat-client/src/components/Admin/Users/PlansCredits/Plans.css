@@ -1,0 +1,25 @@
+.Mui-selected {
+  color: #59d6d6 !important;
+}
+
+/* .Mui-checked {
+  color: rgb(230, 218, 218) !important;
+} */
+
+
+
+
+@media screen and (min-width:10px) and (max-width:800px) {
+  .main {
+    --bs-gutter-x: -0.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(11 * var(--bs-gutter-x));
+}
+.container{
+  margin-right: -21px;
+}
+}

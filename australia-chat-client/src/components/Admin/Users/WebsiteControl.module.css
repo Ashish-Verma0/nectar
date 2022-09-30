@@ -1,0 +1,9 @@
+.websiteControlIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.websiteControlImage {
+  width: 18px;
+  cursor: pointer;
+}

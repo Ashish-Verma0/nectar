@@ -1,0 +1,10 @@
+
+
+@media screen and (min-width:10px) and (max-width:500px) {
+    .main-input{
+        display: flex!important;
+        flex-direction: column;
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+  }

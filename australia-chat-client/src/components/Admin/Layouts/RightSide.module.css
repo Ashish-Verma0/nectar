@@ -1,0 +1,40 @@
+.rightSideButton,
+.rightSideButton:hover {
+  background-color: #7367f0;
+  width: 270px;
+  border-radius: 10px;
+  color: white;
+}
+.rightSideTextArea {
+  width: 270px;
+  padding-top: 15px;
+  padding-left: 15px;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0px 1px 3px 4px rgba(240, 247, 247, 255);
+}
+.rightSideAddSubscription {
+  border: 0px solid black;
+  height: 45px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  align-content: center;
+}
+.rightSideUsers {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.pofile {
+  background-color: #ffffff;
+  padding: 3%;
+  margin: 5%, 20% !important;
+}
+.chart {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 3%;
+  margin: 5%, 20% !important;
+}

@@ -1,0 +1,30 @@
+.allUsersFont {
+  font-weight: 500;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.userHead {
+  background-color: #f3f2f7;
+  border-radius: 10px 10px 0 0;
+  /* flex-direction: row; */
+  /* display: flex; */
+}
+.icon{
+  display: none;
+}
+.iconn{
+  display: flex;
+}
+
+
+
+@media screen and (min-width:10px) and (max-width:500px) {
+  .iconn{
+    display: none !important; 
+  }  
+  .icon{
+    display: flex;
+    width: 10%;
+  }
+}

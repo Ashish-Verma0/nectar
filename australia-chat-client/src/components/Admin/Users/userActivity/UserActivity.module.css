@@ -1,0 +1,10 @@
+.allUsersFont {
+  font-weight: 500;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+}
+.userHead {
+  background-color: #f3f2f7;
+  border-radius: 10px 10px 0 0;
+}

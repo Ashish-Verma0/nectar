@@ -1,0 +1,5 @@
+thead tr th,
+tbody tr th {
+  font-size: 16px !important;
+  font-weight: 400;
+}

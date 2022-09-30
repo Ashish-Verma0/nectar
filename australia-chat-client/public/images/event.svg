@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_897" data-name="Group 897" transform="translate(-2342 -1066)">
+    <rect id="Rectangle_465" data-name="Rectangle 465" width="24" height="24" transform="translate(2342 1066)" fill="none"/>
+    <g id="election-event-on-a-calendar-with-star-symbol" transform="translate(2344.672 1068.524)">
+      <g id="Group_893" data-name="Group 893" transform="translate(0)">
+        <path id="Path_2019" data-name="Path 2019" d="M40.04,55.36l-.291,1.727a.63.63,0,0,0,.913.664l1.553-.811,1.553.811a.63.63,0,0,0,.913-.664l-.29-1.727,1.25-1.226a.63.63,0,0,0-.349-1.074L43.559,52.8l-.78-1.568a.63.63,0,0,0-1.129,0L40.87,52.8l-1.733.257a.63.63,0,0,0-.349,1.074Z" transform="translate(-32.887 -43.158)" fill="#717171"/>
+        <path id="Path_2020" data-name="Path 2020" d="M17.75,2.015H15.767V.914A.914.914,0,0,0,14.852,0h-.145a.914.914,0,0,0-.914.914v1.1h-7V.914A.914.914,0,0,0,5.879,0H5.734A.914.914,0,0,0,4.82.914v1.1H2.859A1.884,1.884,0,0,0,.977,3.9V17.07a1.884,1.884,0,0,0,1.882,1.882H17.751a1.884,1.884,0,0,0,1.882-1.882V3.9A1.884,1.884,0,0,0,17.75,2.015ZM17.5,16.825H3.1V6.57H17.5Z" transform="translate(-0.977)" fill="#717171"/>
+      </g>
+    </g>
+  </g>
+</svg>

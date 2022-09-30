@@ -1,0 +1,24 @@
+.analysisGraph1 {
+  border-radius: 10px;
+  background-color: #fdecd4;
+  color: #ebb261;
+}
+.analysisGraph2 {
+  border-radius: 10px;
+
+  background-color: #fce4f8;
+  color: #e96dd5;
+}
+
+.analysisGraph3 {
+  border-radius: 10px;
+
+  background-color: #c9edf3;
+  color: #39c7e1;
+}
+.analysisGraph4 {
+  border-radius: 10px;
+
+  background-color: #bdecc3;
+  color: #35b446;
+}

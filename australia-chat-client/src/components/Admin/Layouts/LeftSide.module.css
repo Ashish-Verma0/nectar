@@ -1,0 +1,43 @@
+.leftSideUl {
+  padding: 0;
+  margin: 0;
+}
+@media only screen and (max-width: 990px) {
+  .leftSideUl > li {
+    padding: 10px 0 10px 0 !important;
+  }
+  .leftSideUl {
+    margin-left: 0 !important;
+  }
+}
+
+.leftSideUl > li {
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px 0 10px 5px;
+}
+.leftSideUl > li:hover {
+  color: #fff;
+  background-color: #8a81eb;
+  border-radius: 10px 0 0 10px;
+}
+
+.leftSideLI {
+  color: #fff;
+  background-color: #7367f0;
+  border-radius: 10px 0 0 10px;
+}
+.leftSideUl > li > img {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.leftSideManage {
+  margin-left: 0;
+}
+
+.leftSideUl {
+  margin-left: 10px;
+}

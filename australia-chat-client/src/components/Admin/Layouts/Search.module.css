@@ -1,0 +1,25 @@
+.searchForm {
+  position: relative;
+}
+.searchForm > input {
+  padding-left: 60px;
+  background-color: rgb(255 255 255);
+  border: none;
+  height: 47px;
+  border-radius: 8px;
+}
+.searchImg {
+  position: absolute;
+  top: 12px;
+  left: 28px;
+  color: #9ca3af;
+}
+.close {
+  cursor: pointer;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  right: 28px;
+  font-size: 30px;
+  justify-content: center;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <g id="Group_894" data-name="Group 894" transform="translate(-2255 -1013)">
+    <rect id="Rectangle_462" data-name="Rectangle 462" width="24" height="24" transform="translate(2255 1013)" fill="none"/>
+    <g id="man-user" transform="translate(2259 1015)">
+      <path id="Path_2021" data-name="Path 2021" d="M108.644,9.982c2.269,0,4.109-2.235,4.109-4.991S112.149,0,108.644,0s-4.109,2.235-4.109,4.991S106.375,9.982,108.644,9.982Z" transform="translate(-100.882)" fill="#717171"/>
+      <path id="Path_2022" data-name="Path 2022" d="M41.9,300.458c0-.168,0-.047,0,0Z" transform="translate(-41.895 -282.856)" fill="#717171"/>
+      <path id="Path_2023" data-name="Path 2023" d="M308.085,301.639c0-.046,0-.319,0,0Z" transform="translate(-292.562 -283.905)" fill="#717171"/>
+      <path id="Path_2024" data-name="Path 2024" d="M57.421,184.776c-.076-4.8-.7-6.17-5.5-7.036a3.371,3.371,0,0,1-4.5,0c-4.747.857-5.412,2.2-5.5,6.88-.007.382-.01.4-.012.358,0,.083,0,.237,0,.5,0,0,1.143,2.3,7.761,2.3s7.761-2.3,7.761-2.3c0-.172,0-.292,0-.373A3.09,3.09,0,0,1,57.421,184.776Z" transform="translate(-41.907 -167.375)" fill="#717171"/>
+    </g>
+  </g>
+</svg>
